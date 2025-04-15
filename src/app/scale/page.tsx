@@ -1,7 +1,8 @@
-import React from 'react';
+import Hero from '@/components/hero';
+import scaleImage from 'public/scale.jpg';
 
 function Scale() {
-  return <div>Scale</div>;
+  return <Hero imgData={scaleImage} imgAlt="scale" title="Scale your app to infinity" />;
 }
 
 export default Scale;
